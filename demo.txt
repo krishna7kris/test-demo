@@ -1,0 +1,4 @@
+text_file = open("C1W3_QuickSort.txt", "r")
+lines = text_file.readlines()
+data3 = [int(i.strip()) for i in lines]
+text_file.close()
